@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Res/static/css/main.4330d26d.css",
+    "main.js": "/Res/static/js/main.29a3e788.js",
+    "static/js/453.7075c873.chunk.js": "/Res/static/js/453.7075c873.chunk.js",
+    "static/media/i5.jpg": "/Res/static/media/i5.992ba2c8c84558db32f5.jpg",
+    "static/media/i2.jpg": "/Res/static/media/i2.b83a0756ce53eaaf73ef.jpg",
+    "static/media/h3.jpg": "/Res/static/media/h3.c53eb06fd5a53903bb79.jpg",
+    "static/media/i3.jpg": "/Res/static/media/i3.137fe2e0d266b2c12d4e.jpg",
+    "static/media/h2.jpg": "/Res/static/media/h2.9f399560fa3efd29ffc9.jpg",
+    "static/media/h1.jpg": "/Res/static/media/h1.868aa5bc3a379845b4ce.jpg",
+    "static/media/h4.jpg": "/Res/static/media/h4.ed13dfc81d558f737487.jpg",
+    "static/media/i1.jpg": "/Res/static/media/i1.1497de56e35a89e6235f.jpg",
+    "static/media/it1.png": "/Res/static/media/it1.64010ab90336d4f0bbad.png",
+    "static/media/it3.png": "/Res/static/media/it3.45e64fcec21ee7cf4df3.png",
+    "static/media/it17.png": "/Res/static/media/it17.f21c93714a2b45d1fb78.png",
+    "static/media/it9.png": "/Res/static/media/it9.e845165e29824d170627.png",
+    "static/media/it4.png": "/Res/static/media/it4.c0c85d4d44474ada20f6.png",
+    "static/media/it8.png": "/Res/static/media/it8.aaec5fb0e2e2c6bac67d.png",
+    "static/media/it2.png": "/Res/static/media/it2.ce74c38acfc61ced4040.png",
+    "static/media/it10.png": "/Res/static/media/it10.4ece80e3fe2047ff9212.png",
+    "static/media/it7.png": "/Res/static/media/it7.7b49d99c147096288dfc.png",
+    "static/media/it16.png": "/Res/static/media/it16.5a03712c9d9d03f44a72.png",
+    "static/media/it15.png": "/Res/static/media/it15.8646c7757b23e718f43e.png",
+    "static/media/it5.png": "/Res/static/media/it5.a1fd3633bc76b5fe47e6.png",
+    "static/media/it18.png": "/Res/static/media/it18.1c85513f58db9dfabbad.png",
+    "static/media/it12.png": "/Res/static/media/it12.8d395adcd65eb384c7b6.png",
+    "static/media/it13.png": "/Res/static/media/it13.7606db15ec3f9fda820c.png",
+    "static/media/it14.png": "/Res/static/media/it14.d4667a418cd42420c739.png",
+    "static/media/it11.png": "/Res/static/media/it11.8af50dc36161314dc966.png",
+    "static/media/it6.png": "/Res/static/media/it6.3c5bf69d2817dc31778d.png",
+    "static/media/logo.svg": "/Res/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Res/index.html",
+    "main.4330d26d.css.map": "/Res/static/css/main.4330d26d.css.map",
+    "main.29a3e788.js.map": "/Res/static/js/main.29a3e788.js.map",
+    "453.7075c873.chunk.js.map": "/Res/static/js/453.7075c873.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4330d26d.css",
+    "static/js/main.29a3e788.js"
+  ]
+}
