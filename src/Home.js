@@ -306,7 +306,7 @@ function Home() {
                                         src={require('./img/h2.jpg')}
                                         alt="Menu item 2"
                                         className="img-fluid"
-                                        style={{ maxWidth: '160px', border: '5px solid white' }}
+                                h        style={{ maxWidth: '160px', border: '5px solid white' }}
                                     />
                                 </div>
                                 <p className="text-white m-0">
