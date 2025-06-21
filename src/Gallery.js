@@ -14,24 +14,35 @@ import Footer from './Footer';
 function Gallery() {
   return (
     <>
-      <div className="bg text-center">
-        <img src={require('./img/logo.png')} className='mt-5'></img>
+      <Navbar expand="lg" style={{ backgroundColor: '#371508' }} variant="dark">
+                <Container>
+                    {/* Logo on the left */}
+                    <Navbar.Brand as={Link} to="/">
+                        <img
+                            src={require('./img/logo.png')}
+                            alt="Logo"
+                            className="d-inline-block align-top logo-img"
+                        />
+                    </Navbar.Brand>
 
-        <Navbar style={{ backgroundColor: '#371508' }} expand="lg" className='mt-5'>
-          <Container className="justify-content-center">
-            <Nav className="text-center" style={{ color: '#c4733b' }}>
+                    {/* Toggle button for small screens */}
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-              <Nav.Link> <Link to="/" className="mx-3" style={{ color: '#c4733b' }}>Home</Link></Nav.Link>
-              <Nav.Link ><Link to="/menu" className=" mx-3" style={{ color: '#c4733b' }}>Menu</Link></Nav.Link>
-              <Nav.Link><Link to="/res" className=" mx-3" style={{ color: '#c4733b' }}>Reservation</Link></Nav.Link>
-              <Nav.Link><Link to="/gallery" className=" mx-3" style={{ color: '#c4733b' }}>Gallery</Link></Nav.Link>
-              <Nav.Link><Link to="/contact" className=" mx-3" style={{ color: '#c4733b' }}>Contact</Link></Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-        <h1 style={{ color: 'white', fontFamily: 'sans-serif' }} className='mt-5 mb-0'>Gallery</h1>
-      </div>
-      <div style={{ backgroundColor: 'rgba(45, 9, 0, 0.84)', color: 'white' }}>
+                    {/* Nav links aligned right */}
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ms-auto"> {/* ms-auto pushes the nav to the right */}
+                            <Nav.Link as={Link} to="/" className="nav-link-custom">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/menu" className="nav-link-custom">Menu</Nav.Link>
+                            <Nav.Link as={Link} to="/res" className="nav-link-custom">Reservation</Nav.Link>
+                            <Nav.Link as={Link} to="/gallery" className="nav-link-custom">Gallery</Nav.Link>
+                            <Nav.Link as={Link} to="/contact" className="nav-link-custom">Contact</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+            <div className="bg text-center">
+                <h1 style={{ color: 'white', fontFamily: 'sans-serif' }} className='mb-0'>Gallery</h1>
+            </div>      <div style={{ backgroundColor: 'rgba(45, 9, 0, 0.84)', color: 'white' }}>
         <Container>
           <Row className="d-flex">
             <Col md={3} sm={6} xs={12}className='mt-5'>

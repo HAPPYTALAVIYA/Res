@@ -10,7 +10,8 @@ function Footer() {
                     color: 'white',
                     height: '70px',
                     paddingTop: '15px', // Add space inside the background
-                    textAlign: 'center'
+                    textAlign: 'center',
+                    
                 }}
             >
                 <p style={{ margin: 0 }}>
